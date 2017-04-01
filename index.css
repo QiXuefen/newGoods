@@ -1,0 +1,102 @@
+/*
+@-webkit-keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}
+@keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}
+*/
+
+@charset "utf-8";/* CSS Document */
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, input, ruby, section, summary, time, mark, audio, video{border:0;margin:0px;padding:0px;}
+body, button, input, select, textarea{font:1.4em/2.8em 'Microsoft Yahei', Helvetica, Arial, STXihei, SimSun, sans-serif; color: #222222;}
+body{height:100%;background:#ffffff;margin:0 auto;padding:0 0;overflow:visible;}
+
+a{-webkit-transition:all 300ms;
+    -moz-transition:all 300ms;
+    -o-transition:all 300ms;
+    -ms-transition:all 300ms;
+    transition:all 300ms;
+    color:#333;cursor:pointer;text-decoration:none;outline:none/* for FF Chrome */;}
+a:hover{color:#0E629F;text-decoration:none;}
+a:focus{outline:0;}
+a,area {blr:expression(this.onFocus=this.blur())} /* for IE */
+:focus {-moz-outline-style:none;} /* for Firefox */
+
+img{-ms-interpolation-mode:bicubic;border:0;}
+ul, li, ul li{list-style-type:none;}
+button, input, select, textarea{font-size:100%;}
+button{background:none;border:0 none;cursor:pointer;}
+input, label{line-height:18px;vertical-align:middle;}
+label{display:inline-block;vertical-align:baseline;}
+select{line-height:18px;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{border:none;*color:#fff;height:1px;}
+
+input,button, select{outline:none;}
+input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus{border-color: #0E629F;}
+
+table{border-collapse:collapse;border-spacing:0;}
+table tr,table tr td{border:none 0;}
+th{text-align:inherit;}
+table tr td, table tr th {empty-cells: show;}
+
+.clb:after{visibility:hidden;display:block;content:" ";clear:both;}
+.clb{zoom:1; clear:both;}
+.clear:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clear{zoom:1;clear:both;}/* for IE6 IE7 */
+.bare{line-height:0;height:0px;visibility:visible;clear:both;font-size:0px;}
+.dots{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ellipsis{-o-text-overflow:ellipsis;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+em,i{font-style:normal;}
+.over{ overflow:hidden;}
+
+/*common*/
+.page{margin:0 auto;}
+.pos_a{position:absolute;}
+.pos_r{position:relative;}
+.fl{float:left;}
+.fr{float:right;}
+.pointer{cursor:pointer;}
+.dis_bl{display:block;overflow:hidden;}
+
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+
+/*font*/
+h1{font-size:1em;font-weight: normal;}
+h2{font-size:1em;font-weight: normal;}
+h3{font-size:0.8em;font-weight: normal;}
+h4{font-size:0.8em;font-weight: normal;}
+h5{font-size:0.8em;font-weight: normal;}
+
+span,p{color: #fff;font-family:Microsoft YaHei;}
+.wid{width: 100%;}
+
+/*-------第一页 开始---------*/
+.i_box{background: url(image/o_1bbiv31a8132sqmejnnk061t03s.jpg) no-repeat;background-size: cover;}
+.i_box_left{background:url(image/Fm35yOk0MoueH7WVowo5jA59Swu9.png) no-repeat;background-size: cover;width: 70%;height: 100%;}
+.i_box_right{background:url(image/Fh91Vmwe38Q6e48bSsdr_sig0zEQ.png) no-repeat;background-size: cover;width:30%;height: 100%;}
+.i_border img{position: absolute;}
+.i_border p{font-weight: 500;font-size: 1.2em;margin-left: 10%;}
+/*-------第一页 结束---------*/
+
+/*-------第二页 开始---------*/
+.coupon{background: url(image/FlegDZJKikWcf1pfkWPF1EZu3-7n.png) no-repeat;background-size: cover;width: 33%;height:4.5em;}
+.coupon .getting{height: 4.9em; margin-left: 5%; margin-top: -0.2em;}
+.coupon .cheap{width: 8%;  margin-top: 1.7em;  margin-left: 10%; }
+.coupon .rmb{width: 5%; margin-top: 2.8em; margin-left: 20%;}
+.coupon span{color: #423C8D;font-size: 3em;  margin-top: 0.3em;  margin-left: 35%;  font-weight: 700;}
+.content_2 ul img{width: 5%;}
+.content_2 ul li{height: 2em;}
+.content_2 .item{margin-top: 61%;}
+.content_2 .item p{width: 80%;  margin: 0 auto;  line-height: 2em;  }
+/*-------第二页 结束---------*/
+
+/*-------第三页 开始---------*/
+.content_3 .item{background-color: #fff;width: 74%;margin:0 auto;height: 10em;margin-top: -10%;}
+.content_3 .item p{margin-left: 1em;color: #423C8D;}
+/*-------第三页 结束---------*/
+
+/*-------第四页 开始---------*/
+.content_4 .item{background-color: #fff; width: 60%;  height: 16.2em;  margin-top: -60%; margin-left: 30%;}
+.content_4 .item p{color: #423C8D;margin-left: 27%;width: 33%;line-height: 1.5em;}
+/*-------第四页 结束---------*/
